@@ -9,9 +9,15 @@ To write a Python program to convert the number **16** into its **binary represe
 3. Print the result.
 
 ## 🧾 Program
+num = int(input("Enter a number: "))
 
-Add Code Here
+binary = bin(num)
+
+print("Binary value is:", binary)
 
 ## Output
+Enter a number: 10
+Binary value is: 0b1010
 
 ## Result
+Thus the number is converted into binary form using built-in functions.
