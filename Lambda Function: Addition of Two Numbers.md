@@ -9,20 +9,19 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-# Lambda Function in Python: Addition of Two Numbers
-
-add = lambda a, b: a + b
-
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-
-result = add(num1, num2)
-
-print("Sum is:", result)
+```
+f=lambda a,b,c:((a+b+c))
+a=int(input())
+b=int(input())
+c=int(input())
+print(f(a,b,c))
+```
 
 ## Output
-Enter first number: 10
-Enter second number: 20
-Sum is: 30
+
+<img width="565" height="306" alt="image" src="https://github.com/user-attachments/assets/c0ecab05-328d-4286-9380-97aa3e90d0c2" />
+
 ## Result
-Thus the lambda function of addition of two numbers is verified successfully.
+
+Thus, the Python program using a lambda function to find the sum of three numbers was executed successfully.
+
